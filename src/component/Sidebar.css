@@ -1,0 +1,41 @@
+/* Sidebar.css */
+.sidebar {
+    width: 180px; /* Chiều rộng cố định của sidebar */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    flex-shrink: 0; /* Ngăn không cho sidebar thu nhỏ */
+    margin: 0;
+  }
+
+.sidebar a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Dùng màu chữ kế thừa từ phần tử cha */
+    transition: color 0.3s ease; /* Hiệu ứng mượt mà khi đổi màu */
+}
+
+a:hover {
+    text-decoration: none; /* Tùy chỉnh khi hover, nếu cần */
+    color: #ff0000; /* Đặt màu tùy thích khi hover, nếu muốn */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.sidebar ul li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.sidebar ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    height: 600px;
+}

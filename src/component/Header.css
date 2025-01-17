@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 142, 240);
+  padding: 20px 30px; /* Tăng padding trên và dưới để header rộng hơn xuống dưới */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 50px; /* Điều chỉnh chiều cao của header */
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header .logo h1 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.search-container {
+  position: relative;
+  flex-grow: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 15px 10px 35px; /* Add space for the icon */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+
+.user-info i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.login-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}

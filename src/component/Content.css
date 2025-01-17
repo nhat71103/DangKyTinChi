@@ -1,0 +1,21 @@
+/* Content.css */
+.content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  
+  .section-title span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
